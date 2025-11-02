@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/golangci/golangci-lint/v2/pkg/fsutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/fsutils"
 )
 
 type Output struct {

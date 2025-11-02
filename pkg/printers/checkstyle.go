@@ -10,8 +10,8 @@ import (
 
 	"github.com/go-xmlfmt/xmlfmt"
 
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
-	"github.com/golangci/golangci-lint/v2/pkg/result"
+	"github.com/edgedelta/golangci-lint/v2/pkg/logutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/result"
 )
 
 const defaultCheckstyleSeverity = "error"

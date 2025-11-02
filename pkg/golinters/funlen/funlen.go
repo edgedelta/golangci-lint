@@ -3,8 +3,8 @@ package funlen
 import (
 	"github.com/ultraware/funlen"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
 )
 
 type Config struct {

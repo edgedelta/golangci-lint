@@ -6,9 +6,9 @@ import (
 	wslv4 "github.com/bombsimon/wsl/v4"
 	wslv5 "github.com/bombsimon/wsl/v5"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
-	"github.com/golangci/golangci-lint/v2/pkg/golinters/internal"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/golinters/internal"
 )
 
 // Deprecated: use NewV5 instead.

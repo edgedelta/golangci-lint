@@ -7,7 +7,7 @@ import (
 	"golang.org/x/tools/go/packages"
 	"gopkg.in/yaml.v3"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
 )
 
 // LastLinter nolintlint must be last because it looks at the results of all the previous linters for unused nolint directives.

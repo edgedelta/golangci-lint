@@ -4,8 +4,8 @@ import (
 	im "github.com/AdminBenni/iota-mixing/pkg/analyzer"
 	"github.com/AdminBenni/iota-mixing/pkg/analyzer/flags"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
 )
 
 func New(settings *config.IotaMixingSettings) *goanalysis.Linter {

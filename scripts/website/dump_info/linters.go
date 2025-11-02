@@ -4,11 +4,11 @@ import (
 	"maps"
 	"slices"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/v2/scripts/website/types"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goformatters"
+	"github.com/edgedelta/golangci-lint/v2/pkg/lint/linter"
+	"github.com/edgedelta/golangci-lint/v2/pkg/lint/lintersdb"
+	"github.com/edgedelta/golangci-lint/v2/scripts/website/types"
 )
 
 func saveLinters(dst string) error {

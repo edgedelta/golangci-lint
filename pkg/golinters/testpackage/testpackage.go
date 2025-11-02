@@ -5,8 +5,8 @@ import (
 
 	"github.com/maratori/testpackage/pkg/testpackage"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
 )
 
 func New(settings *config.TestpackageSettings) *goanalysis.Linter {

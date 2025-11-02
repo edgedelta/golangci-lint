@@ -1,11 +1,11 @@
 package gci
 
 import (
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters"
-	gcibase "github.com/golangci/golangci-lint/v2/pkg/goformatters/gci"
-	"github.com/golangci/golangci-lint/v2/pkg/golinters/internal"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goformatters"
+	gcibase "github.com/edgedelta/golangci-lint/v2/pkg/goformatters/gci"
+	"github.com/edgedelta/golangci-lint/v2/pkg/golinters/internal"
 )
 
 const linterName = "gci"

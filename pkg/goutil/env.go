@@ -8,7 +8,7 @@ import (
 
 	"github.com/ldez/grignotin/goenv"
 
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/logutils"
 )
 
 type EnvKey string

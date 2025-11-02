@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
-	"github.com/golangci/golangci-lint/v2/test/testshared"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/lint/lintersdb"
+	"github.com/edgedelta/golangci-lint/v2/pkg/logutils"
+	"github.com/edgedelta/golangci-lint/v2/test/testshared"
 )
 
 func TestEnabledLinters(t *testing.T) {

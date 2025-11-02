@@ -3,7 +3,7 @@ package golinters
 import (
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
 )
 
 func NewTypecheck() *goanalysis.Linter {

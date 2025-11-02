@@ -3,8 +3,8 @@ package contextcheck
 import (
 	"github.com/kkHAIKE/contextcheck"
 
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/linter"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/lint/linter"
 )
 
 func New() *goanalysis.Linter {

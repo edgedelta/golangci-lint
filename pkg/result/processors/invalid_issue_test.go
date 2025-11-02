@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
-	"github.com/golangci/golangci-lint/v2/pkg/result"
+	"github.com/edgedelta/golangci-lint/v2/pkg/logutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/result"
 )
 
 func TestInvalidIssue_Process(t *testing.T) {

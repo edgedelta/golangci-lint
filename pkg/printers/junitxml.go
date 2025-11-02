@@ -8,7 +8,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/golangci/golangci-lint/v2/pkg/result"
+	"github.com/edgedelta/golangci-lint/v2/pkg/result"
 )
 
 // JUnitXML prints issues in the JUnit XML format.

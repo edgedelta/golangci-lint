@@ -3,7 +3,7 @@ package mirror
 import (
 	"github.com/butuzov/mirror"
 
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
 )
 
 func New() *goanalysis.Linter {

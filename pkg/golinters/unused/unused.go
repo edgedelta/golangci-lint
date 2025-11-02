@@ -10,10 +10,10 @@ import (
 	"honnef.co/go/tools/analysis/lint"
 	"honnef.co/go/tools/unused"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/v2/pkg/result"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/lint/linter"
+	"github.com/edgedelta/golangci-lint/v2/pkg/result"
 )
 
 const linterName = "unused"

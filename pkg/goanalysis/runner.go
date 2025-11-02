@@ -17,11 +17,11 @@ import (
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/golangci/golangci-lint/v2/internal/cache"
-	"github.com/golangci/golangci-lint/v2/internal/errorutil"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis/load"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
-	"github.com/golangci/golangci-lint/v2/pkg/timeutils"
+	"github.com/edgedelta/golangci-lint/v2/internal/cache"
+	"github.com/edgedelta/golangci-lint/v2/internal/errorutil"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis/load"
+	"github.com/edgedelta/golangci-lint/v2/pkg/logutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/timeutils"
 )
 
 var (

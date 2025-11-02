@@ -19,9 +19,9 @@ import (
 	"golang.org/x/tools/go/gcexportdata"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis/load"
-	"github.com/golangci/golangci-lint/v2/pkg/goutil"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis/load"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goutil"
+	"github.com/edgedelta/golangci-lint/v2/pkg/logutils"
 )
 
 const unsafePkgName = "unsafe"

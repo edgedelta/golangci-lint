@@ -15,11 +15,11 @@ import (
 	"github.com/alecthomas/chroma/v2/quick"
 	rpdiff "github.com/rogpeppe/go-internal/diff"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/fsutils"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
-	"github.com/golangci/golangci-lint/v2/pkg/result/processors"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/fsutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goformatters"
+	"github.com/edgedelta/golangci-lint/v2/pkg/logutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/result/processors"
 )
 
 type Runner struct {

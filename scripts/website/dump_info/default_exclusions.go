@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/golangci/golangci-lint/v2/pkg/result/processors"
-	"github.com/golangci/golangci-lint/v2/scripts/website/types"
+	"github.com/edgedelta/golangci-lint/v2/pkg/result/processors"
+	"github.com/edgedelta/golangci-lint/v2/scripts/website/types"
 )
 
 func saveDefaultExclusions(dst string) error {

@@ -16,7 +16,7 @@ import (
 
 	"golang.org/x/mod/sumdb/dirhash"
 
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/logutils"
 )
 
 // Builder runs all the required commands to build a binary.

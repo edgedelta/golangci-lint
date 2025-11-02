@@ -3,8 +3,8 @@ package mnd
 import (
 	mnd "github.com/tommy-muehle/go-mnd/v2"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
 )
 
 func New(settings *config.MndSettings) *goanalysis.Linter {

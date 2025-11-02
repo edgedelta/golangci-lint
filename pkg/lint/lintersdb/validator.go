@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/lint/linter"
+	"github.com/edgedelta/golangci-lint/v2/pkg/logutils"
 )
 
 type Validator struct {

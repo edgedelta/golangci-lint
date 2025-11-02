@@ -3,8 +3,8 @@ package tagalign
 import (
 	"github.com/4meepo/tagalign"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
 )
 
 func New(settings *config.TagAlignSettings) *goanalysis.Linter {

@@ -1,4 +1,4 @@
-module github.com/golangci/golangci-lint/v2
+module github.com/edgedelta/golangci-lint/v2
 
 go 1.25.3
 

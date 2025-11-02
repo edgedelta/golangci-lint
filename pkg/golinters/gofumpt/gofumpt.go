@@ -1,11 +1,11 @@
 package gofumpt
 
 import (
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters"
-	gofumptbase "github.com/golangci/golangci-lint/v2/pkg/goformatters/gofumpt"
-	"github.com/golangci/golangci-lint/v2/pkg/golinters/internal"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goformatters"
+	gofumptbase "github.com/edgedelta/golangci-lint/v2/pkg/goformatters/gofumpt"
+	"github.com/edgedelta/golangci-lint/v2/pkg/golinters/internal"
 )
 
 func New(settings *config.GoFumptSettings) *goanalysis.Linter {

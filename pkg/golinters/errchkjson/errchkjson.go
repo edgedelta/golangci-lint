@@ -3,8 +3,8 @@ package errchkjson
 import (
 	"github.com/breml/errchkjson"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
 )
 
 func New(settings *config.ErrChkJSONSettings) *goanalysis.Linter {

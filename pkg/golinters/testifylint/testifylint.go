@@ -3,8 +3,8 @@ package testifylint
 import (
 	"github.com/Antonboom/testifylint/analyzer"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/edgedelta/golangci-lint/v2/pkg/config"
+	"github.com/edgedelta/golangci-lint/v2/pkg/goanalysis"
 )
 
 func New(settings *config.TestifylintSettings) *goanalysis.Linter {

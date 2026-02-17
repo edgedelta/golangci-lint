@@ -1,6 +1,6 @@
 module github.com/edgedelta/golangci-lint/v2
 
-go 1.25.3
+go 1.26.0
 
 require (
 	4d63.com/gocheckcompilerdirectives v1.3.0
